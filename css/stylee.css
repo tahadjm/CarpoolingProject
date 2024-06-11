@@ -1,0 +1,26 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family:'Poppins' sans-serif;
+    box-sizing: border-box;
+    --clr-light:#f1f5f9;
+    --clr-text:#e6e6ea;
+    --clr-taha:#e11d48;
+    --clr-dark:#0f172a;
+    --clr-epic:#18181c;
+    --clr-epic2:#18181c;
+    --clr-d:#4a90e2;
+    --custom-gradient-bg:linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65));
+    --custom-gradient: linear-gradient(to right, #4a90e2, #7b68ee);
+    --custom-gradientreverse:linear-gradient(rgba(255, 107, 107, 0.3), rgba(85, 98, 112, 0.3));;
+    --text-gradient: linear-gradient(to left, #65239e, #0fccf2);
+    --clr-footer:#303034;
+
+}
+body, body * {
+    text-decoration: none;
+}
+
+
+
+

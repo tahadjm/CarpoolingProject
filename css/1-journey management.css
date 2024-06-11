@@ -1,0 +1,120 @@
+#h2{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--clr-epic);
+    font-size: 4em;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif ;
+}
+h3{
+    padding-top: 60px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--clr-epic);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif ;
+}
+
+h3{
+    padding-top: 90px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--clr-epic);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif ;
+}
+
+.journey{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-right:3px;
+    color:var(--clr-textepic);
+    text-align: center;
+    border-radius:3px ;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Rubik', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    min-height: 120vh; 
+    padding: 0;  
+}
+.journey-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #acecff5d;
+    padding: 50px 100px;
+    margin-top: 30px;
+    border-radius: 18px;
+}
+.journey-details-data{
+    border-radius:3px;
+    transition: 0.8s ease-in-out;
+    background: var(--custom-gradient);
+    padding: 10px 35px;
+    margin-right: 3px;
+}
+.creation:hover{
+    border-radius: 40px;
+    transform: scale(1.1);
+    backdrop-filter: blur(18px);
+}
+.creation input{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background: var(--custom-gradient);
+    color: var(--clr-text);
+    font-family:'Rubik', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color:#18181c;
+    transition: 0.7s ease-in-out;
+}
+.creation input:hover{
+    border-radius: 25px;
+    transform: scale(1.0.9);
+    background:var(--clr-blablaborder);
+}
+.choise-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.choise-button button {
+    flex-wrap: wrap;
+    margin:0 10px;
+    font-size: 15px;
+    padding: 10px 30px;
+    background: var(--custom-gradient);
+    outline: 0;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.ok-choise-button button:hover{
+    background:#f17070;
+    border-radius: 25px;
+    transform: scale(1.2);
+}
+
+.no-choise-button button:hover{
+    background:#52e069;
+    border-radius: 25px;
+    transform: scale(1.2);
+}

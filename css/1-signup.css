@@ -1,0 +1,83 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    min-height:120vh ;
+}
+.container{
+    background-image: var(--custom-gradient-bg),url(magicpattern-mesh-gradient-1709673148082.png);
+}
+.formbox{
+    position: absolute;
+
+}
+h2{
+    padding-top: 10px;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 360px;
+
+}
+.inputbox label{
+    position: relative;
+    top: -2px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid rgba(255,255,255,0.5);
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+}
+.login{
+    display: flex;
+    justify-content:center;
+    color: #fff;
+    margin: 10px;
+}
+
+.login a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+#signup{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40px;
+    margin-top :30px;
+    border-radius:40px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    background: #fff;
+}
+
+#driverfildes input {
+    margin: 15px 0;
+}
+
+.inputbox select{
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color:#18181c;
+    color: #e6e6ea;
+}

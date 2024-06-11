@@ -1,0 +1,111 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family:'Poppins' sans-serif;
+    box-sizing: border-box;
+    --clr-light:#f1f5f9;
+    --clr-text:#e6e6ea;
+    --clr-taha:#e11d48;
+    --clr-dark:#0f172a;
+    --clr-epic:#18181c;
+    --clr-epic2:#18181c;
+    --clr-d:#4a90e2;
+    --custom-gradient: linear-gradient(to right, #4a90e2, #7b68ee);
+    --custom-gradientreverse:linear-gradient(rgba(255, 107, 107, 0.3), rgba(85, 98, 112, 0.3));;
+    --text-gradient: linear-gradient(to left, #65239e, #0fccf2);
+    --clr-footer:#303034;
+    --clr-blalbatext:hsla(189, 89%, 17%, 1);
+    --clr-blablaborder:#4169E1;
+    
+}
+
+body, body * {
+    text-decoration: none;
+}
+
+
+#text{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--clr-epic);
+    font-size: 4em;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif ;
+}
+
+
+.journey-container{
+    width: 100%;
+    min-height: 120vh; 
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    text-decoration: none;
+    padding: 0;  
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.journey-container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+}
+.creation{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius:20px;
+    transition: 0.8s ease-in-out;
+    background-color:#80a3ed;
+
+}
+.creation:hover{
+    border-radius: 40px;
+    transform: scale(1.1);
+    backdrop-filter: blur(18px);
+}
+.creation input{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background: var(--custom-gradient);
+    color: var(--clr-text);
+    font-family:'Rubik', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color:#18181c;
+    transition: 0.7s ease-in-out;
+}
+.creation input:hover{
+    border-radius: 25px;
+    transform: scale(1.0.9);
+    background:var(--clr-blablaborder);
+}
+.button button {
+    font-size: 15px;
+    padding: 10px 30px;
+    background: var(--custom-gradient);
+    outline: 0;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.button button:hover{
+    background:var(--clr-blablaborder);
+    border-radius: 25px;
+    transform: scale(1.0.9);
+}

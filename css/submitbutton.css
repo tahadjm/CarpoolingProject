@@ -1,0 +1,41 @@
+#alredysubmitted{
+    background-color: #bfbfbd;
+    color: #ff0015;
+    display: block;
+    font-size: 15px;
+    padding: 10px 30px 20px 30px;
+    outline: 0;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    cursor:unset;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+
+#submit{
+
+}
+#submit  {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    padding: 10px 30px 20px 30px;
+    background: var(--custom-gradient);
+    outline: 0;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+}
+
+#submit:hover {
+    transform: scale(1.1);
+    background: var(--custom-gradientreverse);
+}
